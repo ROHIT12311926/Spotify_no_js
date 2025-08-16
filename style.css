@@ -1,0 +1,239 @@
+body{
+    background-color: rgb(0,0,0);
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  color: white;
+  margin: 0;
+  overflow: hidden;
+  
+ 
+}
+.main{
+     
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.side-bar{
+   background-color: rgb(0,0,0);
+   border-radius: 18px;
+   width: 350px;
+   display: flex;
+   flex-direction: column;
+   
+}
+.nav{
+    background-color: rgb(38,38,38);
+    height: 110px;
+     border-radius: 18px;
+    padding: 16px;
+    margin: 10px;
+    
+    
+}
+.nav-option{
+    margin: 15px;
+}
+.main-content{
+    background-color: rgb(38, 38, 38);
+    border-radius: 18px;
+    height: 100vh;
+    flex-grow: 1;
+    overflow: auto;
+    
+    
+}
+.player{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    height: 80px;
+    display: flex;
+}
+.library{
+    
+     background-color: rgb(38,38,38);
+    flex-grow: 1;
+     border-radius: 18px;
+    padding: 16px;
+    margin: 10px;
+
+}
+.firstinlib{
+    margin: 15px;
+
+}
+.fa-solid fa-plus{
+    margin-left: 30px;
+}
+.lib-icons{
+    margin: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.library{
+    margin-top: 10px;
+}
+.card{
+    background-color: rgb(51, 51, 51);
+    border-radius: 18px;
+   
+}
+
+
+.btn{
+    background-color: white ;
+    border-radius: 18px;
+    color: rgb(51, 51, 51);
+    border-color: rgb(51, 51, 51);
+}
+.two-card-cont{
+     display: flex;
+     flex-direction: column;
+     
+     
+     justify-content: space-around;
+
+}
+.col-sm-6{
+    width: 330px;
+    margin-top: -15px;
+    
+   
+}
+
+#two{
+     bottom: 30px;
+    
+}
+.btn-primary:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+
+
+.button{
+    border-radius: 50%;
+    background-color: black;
+    margin-top:25px; 
+}
+
+#navbar{
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    width: 100vw;
+    background-color: rgb(38,38,38);
+    z-index: 3;
+    /* margin-top: 20px; */
+
+
+}
+p{
+    display: inline-block;
+}
+#nav-all{
+    margin-top: 15px;
+    margin-left: 10px;
+    
+}
+
+.allcards{
+
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 100%;
+    margin-bottom: 100px;
+    
+   
+    
+    
+    
+}
+.podcasts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+   
+    
+    
+   
+    
+}
+.card{
+    margin: 25px;
+}
+.card:hover{
+    box-shadow: 5px 5px 15px black;
+    transition-duration: 0.3s;
+}
+.featured_charts{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fa-user{
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+}
+
+#navbarNav{
+    margin-left: 600px;
+}
+#navbarNav li{
+    margin: 10px;
+}
+
+#one{
+    position: relative;
+    bottom: 30px;
+}
+
+.leftside img{
+    margin-left: 50px;
+    width: 70px;
+    height: 70px;
+
+}
+h6{
+ display: inline-block;
+}
+p{
+    font-size: 5px;
+    font-weight: 100;
+}
+.leftcontent{
+    margin-top: 5px;
+}
+.controls img{
+    height: 25px;
+    width: 30px;
+}
+.controls{
+    margin-left: 400px;
+    margin-top: 25px;
+}
+.controls img{
+    justify-self: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.form-range{
+    pos
+}
+.ending img{
+    height: 25px;
+    width: 30px;
+}
+
+
+

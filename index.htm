@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify web player music</title>
+    <link rel="icon" href="data:image/png;base64,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">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="main">
+        <div class="side-bar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">HOME</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">SEARCH</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="firstinlib">
+                    <i class="fa-solid fa-book"></i>
+                <a href="#" class="library">LIBRARY</a>
+                <div class="lib-icons"><i class="fa-solid fa-plus"> </i>
+                <i class="fa-solid fa-arrow-right"></i></div>
+                
+                </div>
+
+
+                <div class="two-card-cont">
+
+                    <div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card" id="one">
+      <div class="card-body" >
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card" id="two">
+      <div class="card-body">
+        <h5 class="card-title">Create your first playlist</h5>
+        <p class="card-text">Its easy we will help you.</p>
+        <a href="#" class="btn btn-primary">Create playlist</a>
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="main-content">
+          <div id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+  <div id="nav-all" class="container-fluid">
+    <a class="navbar-brand" href="#"><i id="left" class="fa-solid fa-circle-chevron-left"></i></a><a href="#" class="navbar-brand"><i class="fa-solid fa-circle-chevron-right" id="right"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+
+          
+            <button type="button" class="btn btn-primary position-relative">
+  Explore premium
+  <span class="badge text-bg-light"></span>
+</button>
+
+          
+        </li>
+        <li class="nav-item">
+         <button type="button" class="btn btn-primary position-relative"><i class="fa-solid fa-download"></i>
+  Install app
+  <span class="badge text-bg-dark"></span>
+</button>
+        </li>
+        <li><i class="fa-solid fa-user"></i></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+ 
+       <div class="allcards">
+        <h5>RECENTLY PLAYED</H5>
+        <div class="card" style="width: 18rem;">
+  <img src="card1img.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"><h5>TOP 50 GLOBAL</h5>Top 50 song you would like to add in the playlist while you travel</p>
+  </div>
+</div>
+<h5>SPOTIFY ORIGINALAS AND PODCASTS</h5>
+<div class="podcasts">
+  <div class="card" style="width: 18rem;">
+  <img src="card2img.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"><h5>KOLBIE MORKAL</h5>
+    How he got 5000$ while he was woking in microlakeme</p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="card3img.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"><h5>THE BATHROOM</h5>
+    The legend of skibiddy</p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="card4img.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"><h5>THE DEATHINGS</h5>
+    Want some expirience of deatings like fd</p>
+  </div>
+</div>
+
+
+</div>
+<H5>FEATURED CHARTS</H5>
+
+<div class="featured_charts">
+  <div class="card" style="width: 18rem;">
+  <img src="card6img.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"><h5>LONIT SAHA</h5>
+    How he become succesful</p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="card5img.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"><h5>LONIT SAHA</h5>
+    How he created tm</p>
+  </div>
+</div>
+</div>
+
+<div class="songs"></div>
+
+
+       </div>
+
+
+        
+        </div>
+        <div class="player">
+          <div class="leftside">
+            <div class="leftcontent">
+            <img src="card3img.jpeg" alt="">
+            <h6>Daylight <br><p>David Kushner</p></h6>
+            </div>
+            
+          </div>
+
+          <div class="controls">
+            <img src="player_icon1.png" alt="">
+            <img src="player_icon2.png" alt="">
+            <img src="play_musicbar.png" alt="">
+            <img src="player_icon4.png" alt="">
+            <img src="player_icon5.png" alt="">
+            <label for="customRange1" class="form-label"></label>
+<input type="range" class="form-range" id="customRange1">
+          </div>
+
+          <div class="ending">
+            <img src="controld_icon2.png" alt=""><img src="controls_icon1.png" alt=""><img src="controls_icon3.png" alt=""><img src="controls_icon5.png" alt="">
+          </div>
+
+
+        </div>
+    </div>
+    
+</body>
+</html>
